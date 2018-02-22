@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
-//import { MatButtonModule } from '@angular/material';
+import {  MatCardModule} from '@angular/material';
 //import { HttpClientModule } from '@angular/common/http';
 
 
@@ -23,7 +23,7 @@ import { CounterComponent } from './components/counter/counter.component';
         HomeComponent
     ],
     imports: [
-       
+        MatCardModule,
         CommonModule,
         HttpModule,
         FormsModule,

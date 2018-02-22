@@ -3,7 +3,6 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const merge = require('webpack-merge');
 const treeShakableModules = [
-"@angular/material",
     '@angular/animations',
     '@angular/common',
     '@angular/compiler',
@@ -13,6 +12,7 @@ const treeShakableModules = [
     '@angular/platform-browser',
     '@angular/platform-browser-dynamic',
     '@angular/router',
+    "@angular/material",
     'zone.js',
 ];
 const nonTreeShakableModules = [
